@@ -121,7 +121,7 @@ transition:.2s linear;
         font-weight: 400;
         font-family: fantasy;
         letter-spacing: 2px;
-        text-shadow: 2px 2px 4px red, 0 0 1em blue, 0 0 0.2em blue;
+        text-shadow: 2px 2px 4px red, 0 0 1em blue, 0 0 0.8em blue;
       }
 
       .slide_medias{
