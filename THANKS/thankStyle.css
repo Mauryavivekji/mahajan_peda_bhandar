@@ -1,0 +1,79 @@
+/* thanks css */
+/* styles.css */
+body {
+         font-family: 'Arial', sans-serif;
+         margin: 0;
+         padding: 0;
+         background: #222;
+         color: #fff;
+       }
+       
+       .thank-you-container {
+         max-width: 800px;
+         margin: 50px auto;
+         padding: 20px;
+         text-align: center;
+         background: #7777;
+         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+         border-radius: 10px;
+       }
+       
+       h1 {
+         color: #cfe1f5;
+         font-size: 2.5rem;
+       }
+       
+       .celebration {
+         font-size: 1.2rem;
+         margin: 10px 0 20px;
+       }
+       
+       .contact-info,
+       .queries,
+       .whats-next {
+         text-align: left;
+         margin: 20px 0;
+       }
+       
+       .contact-info h2,
+       .queries h2,
+       .whats-next h2 {
+         font-size: 1.5rem;
+         color: #007bff;
+         margin-bottom: 10px;
+       }
+       
+       footer {
+         margin-top: 30px;
+         font-size: 1rem;
+         color: #fff;
+         border-top: 1px solid #ddd;
+         padding-top: 10px;
+       }
+       
+       p {
+         margin: 5px 0;
+         line-height: 1.6;
+       }
+       
+       strong {
+         color: #42f842;
+       }
+       
+       @media (max-width: 600px) {
+         .thank-you-container {
+           padding: 15px;
+         }
+         
+         h1 {
+           font-size: 2rem;
+         }
+         
+         .contact-info h2,
+         .queries h2,
+         .whats-next h2 {
+           font-size: 1.3rem;
+         }
+       }
+       
+ 

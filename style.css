@@ -1,3 +1,6 @@
+
+
+
 *{
          padding: 0;
          margin: 0;
@@ -303,7 +306,7 @@ text-decoration:3px line-through #f35858;
         color:aqua;
 }
 
-
+/* 
 .orderForm h1{
         margin-top: 20px;
         text-align: center;
@@ -313,13 +316,83 @@ text-decoration:3px line-through #f35858;
 .orderForm img{
         display: none !important;
         /* background-color: #2d1b43; */
-}
+/* }
 .ff-button-bar img{ 
         display: none !important;
 }
 #Widget635528320 option{
         color: black;
+} */
+
+.orderNow{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        scroll-behavior: smooth;
+        margin: 20px
+
 }
+.orderSection{
+
+        height:max-content;
+        width: 95%;
+        margin:20px auto ;
+
+}
+ul h1{
+        text-align: center;
+        font-size: 30px;
+        font-weight: 600;
+        color:white;
+        margin-top: 50px;
+}
+
+.orderSection ul{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 20px;
+}
+.orderSection ul li{
+color: white;
+list-style: none;
+width: 35%;
+}
+.orderSection ul li input,textarea,select{
+width: 100%;
+padding: 10px;
+border-radius: 6px;
+background-color: #333;
+margin-top: 5px;
+border:none;
+box-shadow:0 0 2px 2px #666;
+color: white;
+}
+.orderSection ul li{
+        font-size: 21px;
+        font-weight: 500;
+}
+#sweet{
+        color: white;
+}
+
+
+::placeholder{
+color: rgb(214, 208, 208);
+}
+
+
+
+
+
+
+
+ 
 
 .footer_section{
         height:max-content;
@@ -369,18 +442,15 @@ gap: 20px;
         font-weight: 700;
 color: rgb(228, 164, 16);
 opacity: 0.7;
-
-
-
-
-
-
-
-
-
 }
 
+@media(max-width:400px){
+        .right_nav li a{
+                font-size:15px ;
+                padding: 0;
 
+        }   
+}
 @media(max-width:600px){
         .right_nav li a{
                 font-size:18px ;
@@ -448,6 +518,10 @@ opacity: 0.7;
                 position: absolute;
                 top: 75%;
                 left: 25%;}
+
+                .orderSection ul li{
+                        width: 85%;
+                        }
 }
 
 @media(600px<width<1140px){
@@ -464,7 +538,28 @@ opacity: 0.7;
                 letter-spacing: 2px;
                 text-shadow: 2px 2px 4px red, 0 0 1em blue, 0 0 0.2em blue;
               }
+              .orderSection ul li{
+                width: 85%;
+                }     
+
 }
+
+
+.submit{
+        float: right;
+        padding: 10px 20px 10px 20px;
+        border-radius: 8px;
+        color:black;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 800;
+        font-size: 15px;
+}
+.submit:hover{
+        /* margin: 10px; */
+        /* border: none; */
+box-shadow: 0 0 2px 2px rgb(113, 113, 207,0.8);
+}
+
 
 
 
