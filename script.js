@@ -10,6 +10,8 @@ form.addEventListener("submit", e => {
     response => response.json()
   ).then((html) => {
     window.open('./payment/index.html', '_blank');
+     // Clear the form fields after successful submission
+     form.reset();
   });
 });
 
