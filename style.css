@@ -325,14 +325,14 @@ text-decoration:3px line-through #f35858;
 } */
 
 .orderNow{
-        height: 100%;
+        height: max-content;
         width: 100%;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         scroll-behavior: smooth;
-        margin: 20px
+        /* margin: 20px */
 
 }
 .orderSection{
@@ -386,6 +386,11 @@ color: white;
 color: rgb(214, 208, 208);
 }
 
+#total-price{
+        font-size: 25px;
+        font-weight: 800;
+        color: #f35858;
+}
 
 
 
@@ -444,13 +449,8 @@ color: rgb(228, 164, 16);
 opacity: 0.7;
 }
 
-@media(max-width:400px){
-        .right_nav li a{
-                font-size:15px ;
-                padding: 0;
 
-        }   
-}
+
 @media(max-width:600px){
         .right_nav li a{
                 font-size:18px ;
@@ -544,7 +544,22 @@ opacity: 0.7;
 
 }
 
+@media(max-width:400px){
+        .right_nav li a{
+                font-size:15px ;
+                padding: 0;
+        }
 
+                .centered h1{
+                        font-size: 1.5rem;
+                        width:max-content;
+                        font-weight: 900;
+                        font-family: fantasy;
+                        letter-spacing: 1px;
+                        text-shadow: 2px 2px 4px red, 0 0 1em blue, 0 0 0.2em blue;
+                      }
+
+        }   
 .submit{
         float: right;
         padding: 10px 20px 10px 20px;
@@ -561,6 +576,12 @@ box-shadow: 0 0 2px 2px rgb(113, 113, 207,0.8);
 }
 
 
+.orderBut{
+        display: flex;
+        justify-content: center;
+        align-content:center ;
+        margin-top: 10px;
+}
 
 
 

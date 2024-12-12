@@ -1,0 +1,127 @@
+/* thanks css */
+/* styles.css */
+
+header{
+  /* display: none; */
+}
+body {
+         font-family: 'Arial', sans-serif;
+         margin: 0;
+         padding: 0;
+         background: #222;
+         color: #fff;
+       }
+       
+       .container {
+        
+         max-width: 800px;
+         margin: 90px auto;
+         padding: 20px;
+         background: #7777;
+         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+         border-radius: 10px;
+       }
+       
+       h1 {
+         color: #cfe1f5;
+         font-size: 2.5rem;
+         text-align: center;
+
+       }
+
+       
+       .celebration {
+         font-size: 1.2rem;
+         margin: 20px 0 20px;
+         text-align: center;
+
+       }
+
+.calculator{
+  margin-top: 10px;
+  background-color: #666;
+  padding: 20px;
+  border-radius: 7px;
+}
+       .calculator li{
+        list-style: none;
+
+       }
+       .calculator li input,textarea,select{
+        width: 100%;
+        padding: 10px;
+        border-radius: 6px;
+        background-color: #333;
+        margin-top: 5px;
+        border:none;
+        box-shadow:0 0 2px 2px #666;
+        color: white;
+        height: max-content;
+        
+      }
+      .calculator  li{
+          margin-top: 20px;
+                font-size: 21px;
+                font-weight: 500;
+        }
+        #total-price{
+          text-align: center;
+          color: #bed653;
+
+        }
+        .btn{
+          margin: 10px;
+          padding: 10px;
+          border-radius: 7px;
+          border: none;
+          box-shadow: 0 0 4px 4px #222;
+text-align: center;      
+font-weight: 800; 
+position: relative;
+left: 50%;
+
+}
+       
+       .contact-info,
+       .queries,
+       .whats-next {
+         text-align: left;
+         margin: 53px 0;
+       }
+       
+       .contact-info h2
+        {
+        text-align: center;
+         font-size: 1.5rem;
+         color: white;
+         margin-bottom: 10px;
+       }
+       
+      
+       
+       p {
+         margin: 5px 0;
+         line-height: 1.6;
+       }
+       
+       strong {
+         color:rgb(139, 114, 238);
+       }
+       
+       @media (max-width: 600px) {
+         .thank-you-container {
+           padding: 15px;
+         }
+         
+         h1 {
+           font-size: 2rem;
+         }
+         
+         .contact-info h2,
+         .queries h2,
+         .whats-next h2 {
+           font-size: 1.3rem;
+         }
+       }
+       
+ 

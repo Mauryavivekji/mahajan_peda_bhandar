@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thank You</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="thankStyle.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+
+</head>
+<body>
+
+  <header>
+    <div class="header_section">
+      <div class="left_nav"><img src="/assets/mor_pankh.png" alt=""></div>
+
+
+      <div class="right_nav">
+        
+          <li><a href="https://mauryavivekji.github.io/mahajan_peda_bhandar/">Home</a></li>
+          <li><a href="https://mauryavivekji.github.io/mahajan_peda_bhandar/#Contact">Contact</a></li>
+          <li><a href="">signUp</a></li>
+          <li><a href="">LogIn</a></li>
+       
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <h1>Thank You for Your Submission!</h1>
+    <p class="celebration">🎉 Your order has been received! 🎉</p>
+    <hr>
+<div class="calculator">
+    <h1>Price Calculator</h1>
+    <li>
+      <label for="sweet">Choose your Delicious Sweets:<span style="color: red;">*</span></label><br>
+      <select name="data[sweet]" id="sweet" required>
+        <option value="Peda">Peda</option>
+        <option value="Khurma">Khurma</option>
+        <option value="gulab-jamun">gulab-jamun</option>
+        <option value="Laddu">Laddu</option>
+        <option value="rasmalai">rasmalai</option>
+      
+      </select>
+    </li>
+
+    <li><label for="Quantity">Quantity:(in Gram)<span style="color: red;">*</span></label>
+    <input type="number" id="grams" name="data[Quantity]" placeholder="Enter Quantity in gram"></li>
+
+    <p id="total-price">Total Price: ₹0.00</p>
+
+  </div>
+    <button id="rzp-button1" class="btn btn-outline-dark btn-lg"><i class="fas fa-money-bill"></i>Payment Now </button>
+
+    
+    <div class="contact-info">
+      <h2>Contact Information</h2>
+      <p>📞 <strong>Mobile Number:</strong> 6299085734</p>
+      <p>📱 <strong>WhatsApp Number:</strong> 6299085734</p>
+      <p>📘 <strong>Facebook:</strong> Mahajan Peda Bhandar</p>
+      <p>📸 <strong>Instagram:</strong> @mahajanpeda_Bhandar</p>
+      <p>▶️ <strong>YouTube:</strong> Mahajan Peda Bhandar 1990</p>
+    </div>
+    
+    
+
+
+
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    
+    
+    
+  </div>
+
+
+
+  <footer>
+    <div class="footer_section">
+      <div class="footer_container1">
+        <span class="policy"> <a href="#">Privacy-Policy</a>
+        <a href="#">Terms and Condition</a></span>
+  <span class="media">
+    <a href=""> <i class="fa-brands fa-whatsapp"></i></a>
+   <a href=""> <i class="fa-brands fa-instagram"></i></a> 
+  <a href=""><i class="fa-brands fa-facebook"></i></a>  
+    <a href=""><i class="fa-brands fa-youtube"></i></a>
+  </span>
+      </div>
+      <div class="footer_container2">This site all Right reseeved &copy;</div>
+    </div>
+  </footer>
+
+
+
+  <script src="payment.js"></script>
+  
+</body>
+</html>
