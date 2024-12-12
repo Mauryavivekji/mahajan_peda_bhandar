@@ -9,7 +9,7 @@ form.addEventListener("submit", e => {
   }).then(
     response => response.json()
   ).then((html) => {
-    window.open('./payment/payment.html', '_blank');
+    window.open('./payment/index.html', '_blank');
   });
 });
 
